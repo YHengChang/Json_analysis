@@ -1,0 +1,14 @@
+C:\Users\HengChang\Desktop\test\test\bin\Debug\test.exe.config
+C:\Users\HengChang\Desktop\test\test\bin\Debug\test.exe
+C:\Users\HengChang\Desktop\test\test\bin\Debug\test.pdb
+C:\Users\HengChang\Desktop\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+C:\Users\HengChang\Desktop\test\test\obj\Debug\test.exe
+C:\Users\HengChang\Desktop\test\test\obj\Debug\test.pdb
+C:\Users\HengChang\Desktop\test\test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\HengChang\Desktop\test\test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HengChang\Desktop\json_analyze\test\bin\Debug\test.exe.config
+C:\Users\HengChang\Desktop\json_analyze\test\obj\Debug\test.exe
+C:\Users\HengChang\Desktop\json_analyze\test\obj\Debug\test.pdb
+C:\github\json_analyze\test\bin\Debug\test.exe.config
+C:\github\json_analyze\test\obj\Debug\test.exe
+C:\github\json_analyze\test\obj\Debug\test.pdb
