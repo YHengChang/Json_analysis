@@ -2,24 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Net.NetworkInformation;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System.Data;
+
 namespace test
 {
-    class Money
-    {
-
-    }
-
-
     class Program
     {
         static void Main(string[] args)
         {
-           
             var url = @"http://ins-info.ib.gov.tw/opendata/json-05010111.aspx";
             var jsonString = ""; 
             
@@ -30,10 +20,8 @@ namespace test
             }
 
             JArray jobject = JArray.Parse(jsonString);
-
             foreach (JObject Jobj in jobject)
-            {
-                
+            {            
                 Console.Write("INSURER_Name : " + Jobj["INSURER_Name"].ToString() + "\n" +
                               "EstablishDate : " + Jobj["EstablishDate"].ToString() + "\n" +
                               "ManagerName1 : " + Jobj["ManagerName1"].ToString() + "\n" +
@@ -47,8 +35,6 @@ namespace test
                               );
                 Console.WriteLine("--------------------------------\n");
             }
-
-
             Console.Read();
 
         }
